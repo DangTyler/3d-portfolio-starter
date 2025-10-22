@@ -21,7 +21,7 @@ const Model: React.FC = () => {
   // For position: 
   // Adjust x for left/right: negative = left, positive = right
   // Adjust y for up/down: negative = down, positive = up
-  return <primitive ref={modelRef} object={scene} scale={4.4} position={[-1, -0.5, -2]} rotation={[0, Math.PI / 2, 0]} />;
+  return <primitive ref={modelRef} object={scene} scale={8} position={[-1, -0.5, -2]} rotation={[0, Math.PI / 2, 0]} />;
 };
 
 export default Model;
