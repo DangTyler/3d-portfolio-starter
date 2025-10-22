@@ -9,10 +9,10 @@ import ScrollReveal from "./scrollReveal";
 const projects = [
   {
     id: 1,
-    title: "DoraBird",
-    description: "Fly through multiple universes with DoraBird!",
-    image: "/images/thumbnaildora.png",
-    link: "https://yourprojectlink.com",
+    title: "Personal Voice Assistant",
+    description: "Your favorite AI friend",
+    image: "/images/voice-assistant.png",
+    link: "https://poc-voice-assistant.onrender.com/",
   },
   {
     id: 2,

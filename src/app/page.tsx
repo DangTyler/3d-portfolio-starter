@@ -4,6 +4,7 @@ import Projects from "@/components/projects";
 import ContactForm from "@/components/contact";
 import Footer from "@/components/footer";
 import Sound from "@/components/sound";
+import About from "@/components/about";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <Projects />
       <ContactForm />
       <Footer />
+      <About />
+    
     </main>
   );
 }

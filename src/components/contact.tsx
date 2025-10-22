@@ -40,7 +40,7 @@ const ContactForm: React.FC = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="Tyler Dang"
             value={formData.name}
             onChange={handleChange}
             className="w-full p-3 bg-gray-800 rounded-lg outline-none focus:ring-2 focus:ring-[#04D9FF]"
